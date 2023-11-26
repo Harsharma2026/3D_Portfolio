@@ -24,12 +24,12 @@ import swift from "./tech/swift.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
+import writejet from "./writejet.png";
 import tesla from "./company/tesla.png";
 
 // import carrent from "./carrent.png";
 import ecommerce from "./ecommerce.png"
-import jobit from "./jobit.png";
+import medisync from "./medi-sync.png";
 // import tripguide from "./tripguide.png";
 import bmi2 from "./bmi2.png";
 
@@ -58,11 +58,11 @@ export {
   swift,
   meta,
   shopify,
-  starbucks,
+  writejet,
   tesla,
   // carrent,
   ecommerce,
-  jobit,
+  medisync,
   // tripguide,
   bmi2,
 };
