@@ -25,7 +25,7 @@ import swift from "./tech/swift.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import writejet from "./writejet.png";
-import tesla from "./company/tesla.png";
+import addverb from "./company/Addverb.jpg";
 
 // import carrent from "./carrent.png";
 import ecommerce from "./ecommerce.png"
@@ -59,7 +59,7 @@ export {
   meta,
   shopify,
   writejet,
-  tesla,
+  addverb,
   // carrent,
   ecommerce,
   medisync,
