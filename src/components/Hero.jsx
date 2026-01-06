@@ -13,7 +13,7 @@ const Hero = () => {
        <div>
         <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff]'>Harsh</span> </h1>
         <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-         I develop Full-Stack web and <br className='sm:block hidden' /> iOS applications
+         I develop Full-Stack web applications and <br className='sm:block hidden' /> an aspiring Data Analyst
         </p>
        </div>    
       </div>

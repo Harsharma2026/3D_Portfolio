@@ -50,11 +50,9 @@ const About = () => {
         
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] p-3'
       >
-        I'm a skilled software developer enthusiast with experience in Swift 
-        and JavaScript, and expertise in frameworks like React, Node.js. 
-        I'm a quick learner and collaborate closely with colleagues to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Full-stack software developer with experience in React and Node.js,
+        now expanding into Data Analytics using Python and SQL. 
+        Passionate about building scalable applications and extracting meaningful insights from data to drive smarter decisions.
       </motion.p>
 
       <div className='mt-10 flex flex-wrap gap-10 p-3'>

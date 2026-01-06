@@ -1,6 +1,6 @@
-import React from "react";
 import { Tilt } from 'react-tilt';
 import { motion } from "framer-motion";
+import PropTypes from 'prop-types';
 
 import { styles } from "../styles";
 import { github } from "../assets";
@@ -67,6 +67,18 @@ const ProjectCard = ({
   );
 };
 
+ProjectCard.propTypes = {
+  index: PropTypes.number.isRequired,
+  name: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  tags: PropTypes.arrayOf(PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    color: PropTypes.string.isRequired
+  })).isRequired,
+  image: PropTypes.string.isRequired,
+  source_code_link: PropTypes.string.isRequired,
+};
+
 const Works = () => {
   return (
     <>
@@ -98,4 +110,6 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+const WrappedWorks = SectionWrapper(Works, "");
+
+export default WrappedWorks;

@@ -31,6 +31,7 @@ import addverb from "./company/Addverb.jpg";
 import ecommerce from "./ecommerce.png"
 import medisync from "./medi-sync.png";
 // import tripguide from "./tripguide.png";
+import vercelDiagram from "./vercel-diagram.png";
 import bmi2 from "./bmi2.png";
 
 export {
@@ -64,5 +65,6 @@ export {
   ecommerce,
   medisync,
   // tripguide,
+  vercelDiagram,
   bmi2,
 };

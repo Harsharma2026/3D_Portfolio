@@ -19,12 +19,13 @@ import {
     meta,
     writejet,
     addverb,
-    shopify,
+    // shopify,
     // carrent,
     ecommerce,
     medisync,
     // tripguide,
-    bmi2,
+    // bmi2,
+    vercelDiagram,
     threejs,
   } from "../assets";
   
@@ -49,7 +50,7 @@ import {
       icon: web,
     },
     {
-      title: "iOS App Developer",
+      title: "Aspiring Data Analyst",
       icon: mobile,
     },
     {
@@ -140,7 +141,7 @@ import {
       company_name: "Addverb Technologies",
       icon: addverb,
       iconBg: "#E6DEDD",
-      date: "Jun 2024 - Sep 2024",
+      date: "Jun 2024 - Dec 2024",
       points: [
         "Providing software solutions for clients like HUL, ITC, PepsiCo, and Lenskart, focusing on automation to enhance operational efficiency.",
         "Contributing to code reviews, debugging, and optimization, improving the reliability and maintainability of software.",
@@ -205,7 +206,7 @@ import {
   
   const projects = [
     {
-      name: "E-Commerce",
+      name: "Onway",
       description:
         "This project has a unique feature in which apart from the basic shopping experience a person coming from abroad will carry the product with him.",
       tags: [
@@ -251,25 +252,29 @@ import {
       source_code_link: "https://github.com/Harsharma2026/Medi-Sync",
     },
     {
-      name: "BMI-Calculator",
+      name: "ShipStatic",
       description:
-        "The BMI Calculator app for iOS is a convenient tool for calculating your Body Mass Index (BMI) and determining your ideal weight range.",
+        "A scalable Vercel-like deployment platform built with React, Node.js, Docker, Redis, and AWS ECS, supporting real-time logs and automated containerized deployments.",
       tags: [
         {
-          name: "Swift",
+          name: "Node.js",
           color: "blue-text-gradient",
         },
         {
-          name: "SwiftUI",
+          name: "Docker",
           color: "green-text-gradient",
         },
-        // {
-        //   name: "css",
-        //   color: "pink-text-gradient",
-        // },
+        {
+          name: "AWS ECS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Redis",
+          color: "blue-text-gradient",
+        },
       ],
-      image: bmi2,
-      source_code_link: "https://github.com/Harsharma2026/BMI-Calculator-iOS",
+      image: vercelDiagram,
+      source_code_link: "https://github.com/Harsharma2026/vercel-clone",
     },
   ];
   
